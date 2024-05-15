@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+  display: flex;
+  background: black;
+  height: 100%;
+  width: 100%;
+  background-size:6%;
+  background: #c2c2c2 url(bg.jpg)  ;
+  text-shadow: 0 0 5px white;
+	
+}
+#clock{
+	color:#00d5b7;
+	position: absolute;
+	background-repeat: no-repeat;
+  text-shadow: 2px 2px #00a32a;
+	letter-spacing: 8px;
+	top:50%;
+	left:50%;
+	font-family: 'helvetica neue';
+	transform: translateX(-50%)
+	translateY(-50%);
+	font-size: 100px;
+	background:0;
+}
